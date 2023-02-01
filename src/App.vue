@@ -1,18 +1,23 @@
 <template>
-  <h1> Hello world </h1>
-  <LifeCycle/>
+  <h1>Hello world</h1>
+  <LifeCycle />
+  <Info/>
+  <Picture />
 </template>
 
 <script>
-import LifeCycle from './components/LifeCycle.vue';
+import LifeCycle from "./components/LifeCycle.vue";
+import Picture from "./components/Picture.vue";
+import Info from "./components/Info.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    LifeCycle
-  }
- 
-}
+    LifeCycle,
+    Picture,
+    Info
+  },
+};
 </script>
 
 <style>
